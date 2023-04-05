@@ -12,7 +12,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- Schema alquiler_bicis_basico
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `alquiler_bicis_basico` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci ;
-USE `alquiler_bicis_final` ;
+USE `alquiler_bicis_basico` ;
 
 -- -----------------------------------------------------
 -- Table `alquiler_bicis_basico`.`bici`
