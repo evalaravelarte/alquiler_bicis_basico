@@ -62,7 +62,7 @@ COMMIT;
 -- Data for table `alquiler_bicis_basico`.`usuario`
 -- -----------------------------------------------------
 START TRANSACTION;
-USE `alquiler_bicis_final`;
+USE `alquiler_bicis_basico`;
 INSERT INTO `alquiler_bicis_basico`.`usuario` (`cod_usuario`, `nombre`, `cod_bici`) VALUES (1, 'Eva', NULL);
 INSERT INTO `alquiler_bicis_basico`.`usuario` (`cod_usuario`, `nombre`, `cod_bici`) VALUES (2, 'Juan', NULL);
 
